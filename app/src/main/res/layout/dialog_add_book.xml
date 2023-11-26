@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/inputTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints=""
+        android:hint="@string/t_tulo"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/inputAutor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints=""
+        android:hint="@string/autor"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/inputEditorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints=""
+        android:hint="@string/editorial"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/inputISBN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints=""
+        android:hint="@string/isbn"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/inputAno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints=""
+        android:hint="@string/a_o"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/inputPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints=""
+        android:hint="@string/precio"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:textAlignment="center" />
+
+</LinearLayout>

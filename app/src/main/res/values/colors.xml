@@ -1,0 +1,9 @@
+<resources>
+    <color name="background_light">#FFFFFF</color>
+    <color name="colorPrimary">#3498db</color>
+    <color name="colorDelete">#e74c3c</color>
+    <color name="divider_color">#CCCCCC</color>
+    <color name="colorText">#000000</color>
+    <color name="colorBackground">#FFFFFF</color>
+
+</resources>

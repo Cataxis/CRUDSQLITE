@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">LibreriaSQLite</string>
+    <string name="title_activity_book_detail">BookDetailActivity</string>
+    <string name="t_tulo">Título</string>
+    <string name="autor">Autor</string>
+    <string name="editorial">Editorial</string>
+    <string name="a_o">Año</string>
+    <string name="edici_n">Edición</string>
+    <string name="isbn">ISBN</string>
+    <string name="precio">Precio</string>
+    <string name="agregar">Agregar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="editar">Editar</string>
+    <string name="eliminar_libro">Eliminar libro</string>
+    <string name="guardar_cambios">Guardar cambios</string>
+    <string name="agregar_libro">Agregar Libro</string>
+    <string name="todo">TODO</string>
+</resources>

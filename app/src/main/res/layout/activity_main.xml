@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light"
+
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/listaLibros"
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:layout_above="@+id/botonAgregarLibro"
+        android:layout_marginBottom="31dp"
+        android:background="@android:color/background_light"
+        android:divider="@color/divider_color"
+        android:dividerHeight="1dp"
+        android:textAlignment="center"></ListView>
+
+
+    <Button
+        android:id="@+id/botonAgregarLibro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:background="@android:color/holo_green_light"
+        android:text="@string/agregar_libro"
+        android:textColor="#212121"
+        tools:ignore="VisualLintButtonSize" />
+
+    <ImageView
+        android:id="@+id/imagenLogo"
+        android:layout_width="227dp"
+        android:layout_height="177dp"
+        android:layout_above="@+id/listaLibros"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@mipmap/logo"
+        tools:ignore="ImageContrastCheck" />
+
+</RelativeLayout>
